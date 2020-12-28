@@ -27,7 +27,7 @@ func GetRedisStateStore(redisUri string) (faasflow.StateStore, error) {
 	}
 	client := redis.NewClient(opts)
 
-	err := client.Ping().Err()
+	err = client.Ping().Err()
 	if err != nil {
 		return nil, err
 	}
