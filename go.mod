@@ -1,4 +1,4 @@
-module github.com/faasflow/faas-flow-redis-statestore
+module github.com/578157900/faas-flow-redis-statestore
 
 go 1.13
 
